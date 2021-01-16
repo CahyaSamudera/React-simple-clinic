@@ -1,0 +1,32 @@
+.service {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  background: var(--primary-color);
+}
+.service .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #fff;
+  border-radius: 50px;
+}
+.service .icon i {
+  font-size: 32px;
+  line-height: 1;
+  position: relative;
+  color: #47aeff;
+}
+.service h4 {
+  margin: 10px 0 15px 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+.service p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}

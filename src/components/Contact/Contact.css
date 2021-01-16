@@ -1,0 +1,35 @@
+.contact-box {
+  color: #000;
+  text-align: center;
+  box-shadow: var(--shadow);
+  padding: 20px 0 30px 0;
+  background: var(--primary-color);
+}
+.contact-box i {
+  font-size: 32px;
+  color: #fff;
+  border-radius: 50%;
+}
+.contact-box h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.contact-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.contact button {
+  background: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}

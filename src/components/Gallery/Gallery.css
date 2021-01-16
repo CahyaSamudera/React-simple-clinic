@@ -1,0 +1,53 @@
+.camp {
+  background-color: var(--primary-color);
+  padding-bottom: 0;
+}
+.camp h2 {
+  color: #000;
+  margin-bottom: 25px;
+}
+.camp-grid {
+  margin-top: 65px;
+}
+.camp-grid .row {
+  margin: 0;
+}
+.camp-grid .row > div {
+  padding: 0;
+}
+.camp-grid .row > div .card img {
+  width: 100%;
+}
+.camp-grid .row > div .card .camp-text {
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.camp-grid .row > div .card .camp-text > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.camp-grid .row > div .card .camp-text .card-title {
+  color: #fff;
+  font-size: 30px;
+}
+.camp-grid .row > div .card .camp-text .card-text {
+  color: #fff;
+  opacity: 0.75;
+  padding: 0 45px;
+}
+.camp-grid .row > div .card:hover .camp-text {
+  opacity: 1;
+  visibility: visible;
+}

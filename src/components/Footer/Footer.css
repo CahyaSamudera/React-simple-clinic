@@ -1,0 +1,20 @@
+.footer {
+  text-align: center;
+  font-size: 15px;
+  background: var(--primary-color);
+}
+.footer .btn-back {
+  background: #fff;
+  color: var(--secondary-color);
+}
+.footer .text {
+  color: #000;
+}
+.btn-social i {
+  font-size: 22px;
+}
+.btn-social i:hover {
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.3);
+}

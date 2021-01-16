@@ -1,0 +1,19 @@
+.nav-back {
+  background: var(--primary-color);
+}
+.navbar-brand {
+  color: #000;
+  font-weight: bold;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.navbar-toggler {
+  outline: none !important;
+}
